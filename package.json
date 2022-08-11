@@ -1,0 +1,42 @@
+{
+  "name": "lhos-manage",
+  "description": "",
+  "main": "index.html",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "carroll118",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.2",
+    "@types/mockjs": "^1.0.6",
+    "@types/node": "^17.0.25",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vitejs/plugin-vue-jsx": "^1.3.10",
+    "autoprefixer": "^10.4.5",
+    "cross-env": "^7.0.3",
+    "daisyui": "^2.14.2",
+    "mockjs": "^1.1.0",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.5",
+    "vite-plugin-index-html": "^2.0.2",
+    "vite-plugin-mock": "^2.9.6"
+  },
+  "dependencies": {
+    "@amcharts/amcharts5": "^5.2.6",
+    "@lemonpeel/components": "workspace:^2.0.0",
+    "@lemonpeel/design-components": "workspace:^1.0.0",
+    "@lemonpeel/hooks": "workspace:^1.0.0",
+    "@lemonpeel/utils": "workspace:^1.0.0",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.13",
+    "pinia-plugin-persist": "^1.0.0",
+    "vue": "^3.2.33",
+    "vue-router": "4.0.8"
+  },
+  "version": null
+}

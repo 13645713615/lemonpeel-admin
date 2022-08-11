@@ -1,0 +1,487 @@
+[
+    {
+        "path": "coinmanage",
+        "name": "coinmanage",
+        "component": "layout",
+        "meta": {
+            "title": "币种管理",
+            "hidden": false,
+            "icon": "icon-shuzibizhongliebiao"
+        },
+        "children": [
+            {
+                "path": "coin",
+                "name": "coin",
+                "component": "coin",
+                "meta": {
+                    "title": "币种设置",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-duobizhongshezhi"
+                }
+            },
+            {
+                "path": "accountmethod",
+                "name": "accountmethod",
+                "component": "accountmethod",
+                "meta": {
+                    "title": "结算方式",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-fukuanfangshi"
+                }
+            },
+            {
+                "path": "paystyle",
+                "name": "paystyle",
+                "component": "paystyle",
+                "meta": {
+                    "title": "结算设置",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-fukuanshezhi"
+                }
+            }
+        ]
+    },
+    {
+        "path": "poolmanage",
+        "name": "poolmanage",
+        "component": "layout",
+        "meta": {
+            "title": "矿池管理",
+            "hidden": false,
+            "icon": "icon-zijinchiguijishezhi"
+        },
+        "children": [
+            {
+                "path": "pool",
+                "name": "pool",
+                "component": "pool",
+                "meta": {
+                    "title": "矿池信息",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-zijinchizhangbumingxichaxun"
+                }
+            },
+            {
+                "path": "poolbranch",
+                "name": "poolbranch",
+                "component": "poolbranch",
+                "meta": {
+                    "title": "分池设置",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-zijinchizhangbuguanlianguizeshezhi"
+                }
+            },
+            {
+                "path": "pooldomian",
+                "name": "pooldomian",
+                "component": "pooldomian",
+                "meta": {
+                    "title": "域名设置",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-yumingguanli"
+                }
+            }
+        ]
+    },
+    {
+        "path": "jurisdiction",
+        "name": "jurisdiction",
+        "component": "layout",
+        "meta": {
+            "title": "权限管理",
+            "hidden": false,
+            "icon": "icon-quanxian"
+        },
+        "children": [
+            {
+                "path": "administrators",
+                "name": "administrators",
+                "component": "administrators",
+                "meta": {
+                    "title": "管理员设置",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-jiaoseguanli"
+                }
+            },
+            {
+                "path": "role",
+                "name": "role",
+                "component": "role",
+                "meta": {
+                    "title": "角色设置",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-jiaoseguanli"
+                }
+            },
+            {
+                "path": "menus",
+                "name": "menus",
+                "component": "menus",
+                "meta": {
+                    "title": "菜单设置",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-caidan"
+                }
+            }
+        ]
+    },
+    {
+        "path": "accountmanage",
+        "name": "accountmanage",
+        "component": "layout",
+        "meta": {
+            "title": "用户管理",
+            "hidden": false,
+            "icon": "icon-yonghu"
+        },
+        "children": [
+            {
+                "path": "usermodel",
+                "name": "usermodel",
+                "component": "usermodel",
+                "meta": {
+                    "title": "用户设置",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-yonghushezhi-"
+                }
+            },
+            {
+                "path": "accountscale",
+                "name": "accountscale",
+                "component": "accountscale",
+                "meta": {
+                    "title": "费率设置",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-feishuaiguanli"
+                }
+            },
+            {
+                "path": "accountspool",
+                "name": "accountspool",
+                "component": "accountspool",
+                "meta": {
+                    "title": "客户设置",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-kehu"
+                }
+            }
+        ]
+    },
+    {
+        "path": "paymentmanage",
+        "name": "paymentmanage",
+        "component": "layout",
+        "meta": {
+            "title": "支付管理",
+            "hidden": false,
+            "icon": "icon-web-icon-"
+        },
+        "children": [
+            {
+                "path": "paymentnowpay",
+                "name": "paymentnowpay",
+                "component": "paymentnowpay",
+                "meta": {
+                    "title": "今日待支付",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-daizhifu"
+                }
+            },
+            {
+                "path": "paymentreview",
+                "name": "paymentreview",
+                "component": "paymentreview",
+                "meta": {
+                    "title": "审核支付",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-shenhe"
+                }
+            },
+            {
+                "path": "paymenttype",
+                "name": "paymenttype",
+                "component": "paymenttype",
+                "meta": {
+                    "title": "支付类型",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-fukuanfangshi"
+                }
+            },
+            {
+                "path": "paymentreject",
+                "name": "paymentreject",
+                "component": "paymentreject",
+                "meta": {
+                    "title": "拒绝支付设置",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-rectanglecopy"
+                }
+            }
+        ]
+    },
+    {
+        "path": "operation",
+        "name": "operation",
+        "component": "layout",
+        "meta": {
+            "title": "运营管理",
+            "hidden": false,
+            "icon": "icon-yunying"
+        },
+        "children": [
+            {
+                "path": "operationtype",
+                "name": "operationtype",
+                "component": "operationtype",
+                "meta": {
+                    "title": "运营类型",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-yunying"
+                }
+            }
+        ]
+    },
+    {
+        "path": "mergemanage",
+        "name": "mergemanage",
+        "component": "layout",
+        "meta": {
+            "title": "矿机管理",
+            "hidden": false,
+            "icon": "icon-machine"
+        },
+        "children": [
+            {
+                "path": "merge",
+                "name": "merge",
+                "component": "merge",
+                "meta": {
+                    "title": "矿机设置",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-machine"
+                }
+            }
+        ]
+    },
+    {
+        "path": "block",
+        "name": "block",
+        "component": "layout",
+        "meta": {
+            "title": "爆块信息",
+            "hidden": false,
+            "icon": "icon-qukuai"
+        },
+        "children": [
+            {
+                "path": "blockdetailed",
+                "name": "blockdetailed",
+                "component": "block",
+                "meta": {
+                    "title": "爆块明细",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-qukuai"
+                }
+            },
+            {
+                "path": "blockstatistics",
+                "name": "blockstatistics",
+                "component": "blockstatistics",
+                "meta": {
+                    "title": "爆块统计",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-tongji"
+                }
+            }
+        ]
+    },
+    {
+        "path": "shortlettermanage",
+        "name": "shortlettermanage",
+        "component": "layout",
+        "meta": {
+            "title": "短信管理",
+            "hidden": false,
+            "icon": "icon-duanxin"
+        },
+        "children": [
+            {
+                "path": "shortletter",
+                "name": "shortletter",
+                "component": "shortletter",
+                "meta": {
+                    "title": "短信设置",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-duanxin"
+                }
+            }
+        ]
+    },
+    {
+        "path": "logmanage",
+        "name": "logmanage",
+        "component": "layout",
+        "meta": {
+            "title": "日志管理",
+            "hidden": false,
+            "icon": "icon-log"
+        },
+        "children": [
+            {
+                "path": "log",
+                "name": "log",
+                "component": "log",
+                "meta": {
+                    "title": "日志",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-log"
+                }
+            }
+        ]
+    },
+    {
+        "path": "imagesmanage",
+        "name": "imagesmanage",
+        "component": "layout",
+        "meta": {
+            "title": "图片管理",
+            "hidden": false,
+            "icon": "icon-tupiancopy"
+        },
+        "children": [
+            {
+                "path": "images",
+                "name": "images",
+                "component": "images",
+                "meta": {
+                    "title": "图片设置",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-tupiancopy"
+                }
+            }
+        ]
+    },
+    {
+        "path": "websitemanage",
+        "name": "websitemanage",
+        "component": "layout",
+        "meta": {
+            "title": "官网管理",
+            "hidden": false,
+            "icon": "icon-wangzhan"
+        },
+        "children": [
+            {
+                "path": "banner",
+                "name": "banner",
+                "component": "banner",
+                "meta": {
+                    "title": "轮播图",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-lunbotu"
+                }
+            },
+            {
+                "path": "notice",
+                "name": "notice",
+                "component": "notice",
+                "meta": {
+                    "title": "公告",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-gonggao"
+                }
+            },
+            {
+                "path": "advertise",
+                "name": "advertise",
+                "component": "advertise",
+                "meta": {
+                    "title": "广告",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-guanggao"
+                }
+            },
+            {
+                "path": "links",
+                "name": "links",
+                "component": "links",
+                "meta": {
+                    "title": "友情链接",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-lianjie"
+                }
+            },
+            {
+                "path": "partner",
+                "name": "partner",
+                "component": "partner",
+                "meta": {
+                    "title": "合作伙伴",
+                    "nocache": true,
+                    "hidden": false,
+                    "icon": "icon-hezuo"
+                }
+            },
+            {
+                "path": "help",
+                "name": "help",
+                "component": "parentview",
+                "meta": {
+                    "title": "帮助设置",
+                    "hidden": false,
+                    "icon": "icon-bangzhu"
+                },
+                "children": [
+                    {
+                        "path": "category",
+                        "name": "helpcategory",
+                        "component": "helpcategory",
+                        "meta": {
+                            "title": "帮助类目",
+                            "nocache": true,
+                            "hidden": false,
+                            "icon": "icon-bangzhu"
+                        }
+                    },
+                    {
+                        "path": "helpedit/:id?",
+                        "name": "helpedit",
+                        "component": "helpedit",
+                        "meta": {
+                            "title": "帮助详情",
+                            "nocache": true,
+                            "hidden": true
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+
+@layer components {
+    .minhwin {
+        @apply md:min-h-[calc(100vh-4rem-4rem-3rem-5rem-2rem)]
+    }
+}
+
+@tailwind utilities;
+
+@layer utilities{
+    html{
+        --c-color:#0000;
+    }
+    body{
+        @apply font-serif;
+    }
+}
+
+
